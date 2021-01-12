@@ -5,7 +5,7 @@ import os
 TRAIN_TEST_RATIO = 0.2
 
 
-ROOT_DATA_PATH = '../data/SST-2'
+ROOT_DATA_PATH = './data/SST-2'
 TRAIN_FILE = os.path.join(ROOT_DATA_PATH, 'train.tsv')
 TEST_FILE = os.path.join(ROOT_DATA_PATH, 'test.tsv')
 DEV_FILE = os.path.join(ROOT_DATA_PATH, 'dev.tsv')

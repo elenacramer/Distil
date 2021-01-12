@@ -11,6 +11,9 @@ pandas = "^1.2.0"
 torch = "^1.7.1"
 tensorboard = "^2.4.0"
 scikit-learn = "^0.24.0"
+inflect = "^5.0.2"
+nltk = "^3.5"
+torchtext = "^0.8.1"
 
 [tool.poetry.dev-dependencies]
 black = {version = "^20.8b1", allow-prereleases = true}
